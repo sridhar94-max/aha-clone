@@ -1,0 +1,22 @@
+*{
+    background-color:#111;
+    color: #fff;
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    margin: 10px 20px;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.posters img{
+    width: 190px;
+    margin: 0 3px 0 3px;
+    border-radius: 20px;
+}
+h1{
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 5px 20px;
+}
